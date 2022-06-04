@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#testimonial-grid-containe{
+    padding: 20px;
+}
+
+.grid-item {
+    margin: 15px;
+    padding: 15px;
+}
+
+#textimonial-1 {
+    background-color: #7541c8;
+    color: #ecf2f8;
+}
+#textimonial-2 {
+    background-color: #48556a;
+    color: #ecf2f8;
+}
+#textimonial-3 {
+    background-color: #ffffff;
+}
+#textimonial-4 {
+    background-color: #19212e;
+    color: #ecf2f8;
+}
+#textimonial-5 {
+    background-color: #ffffff;
+}
