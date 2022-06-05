@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -9,66 +9,99 @@
 }
 
 .textimonial {
-    margin: 10px;
-    padding: 15px;
+    padding: 1px 15px;
+}
+.owner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.owner img {
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #7541c8;
+    margin-left: -10px;
+}
+.owner-name {
+    margin-left: -5px;
+    margin-left: 0px;
+}
+
+p {
+    opacity: 70%;
+}
+
+h4 {
+    margin-bottom: 10px;
 }
 
 #textimonial-1 {
     background-color: #7541c8;
     color: #ecf2f8;
+    border-radius: 5px;
 }
 #textimonial-2 {
     background-color: #48556a;
     color: #ecf2f8;
+    border-radius: 5px;
 }
 #textimonial-3 {
     background-color: #ffffff;
+    border-radius: 5px;
 }
 #textimonial-4 {
     background-color: #19212e;
     color: #ecf2f8;
+    border-radius: 5px;
 }
 #textimonial-5 {
     background-color: #ffffff;
+    border-radius: 5px;
 }
 
 @media screen and (min-width: 500px) {
     #testimonial-grid-containe {
         display: flex;
         flex-direction: row;
+        margin: 0 auto;
+        width: 1400px;
+        margin-top: 50px;
+        justify-content: space-between;
     }
 
     .grid-items {
         display: flex;
-        flex-basis: 75%;
+        flex-basis: 78%;
         flex-direction: column;
     }
     #textimonial-5 {
-        display: flex;
-        flex-basis: 25%;
+        flex-basis: 20%;
     }
 
     .grid-items-top {
         display: flex;
+        flex-basis: 50%;
+        justify-content: space-between;
+        margin-bottom: 10px;
     }
     #textimonial-1 {
-        display: flex;
-        flex-basis: 65%;
+        flex-basis: 68%;
     }
     #textimonial-2 {
-        display: flex;
-        flex-basis: 35%;
+        flex-basis: 28%;
     }
 
     .grid-items-bottom {
+        margin-top: 10px;
         display: flex;
+        flex-basis: 50%;
+        justify-content: space-between;
     }
     #textimonial-3 {
-        display: flex;
-        flex-basis: 65%;
+        flex-basis: 28%;
     }
     #textimonial-4 {
-        display: flex;
-        flex-basis: 35%;
+        flex-basis: 68%;
     }
 }
